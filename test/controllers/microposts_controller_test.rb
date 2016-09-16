@@ -45,4 +45,5 @@ class MicropostsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to microposts_url
   end
+
 end
