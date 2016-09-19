@@ -3,3 +3,21 @@
 #rails-logo{
   height: 40px;
 }
+.user-form{
+  input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+#errors {
+  ul {
+    color: $state-danger-text;
+    margin: 0 0 30px 0;
+  }
+}
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}
